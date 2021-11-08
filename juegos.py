@@ -31,14 +31,15 @@ def menu():
     while True:
         print("\nSeleciona el juego:")
         print("1. Tombola")
-        print("2. Juego nuevo")
+        print("2. Dados")
         print("3. Salir")
         i = int(input("Ingresa seleccion: "))
         if i == 1:
             print("\nTombola")
             tombola()
         elif i == 2:
-            print("Juego nuevo")
+            print("\nDados, que suman 7")
+            dados()
         elif i == 3:
             break
         else:
