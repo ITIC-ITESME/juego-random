@@ -14,6 +14,19 @@ def tombola():
         else:
             print('Sigue paticipando')
 
+#Los datos al azar
+def dados():
+    dato1 = random.randint(1,6)
+    dato2 = random.randint(1,6)
+    print("Primer dato: ", dato1)
+    print("Segundo dato: ", dato2)
+    suma= dato1+dato2
+    if suma==7:
+        print("¡GANASTE!")
+    else:
+        print("Mejor suerte para la proxima")
+
+
 # Menu de juego
 def menu():
     i = 0
