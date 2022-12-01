@@ -14,7 +14,7 @@ def tombola():
         else:
             print('Sigue paticipando')
 #Los datos al azar
-def dados_@usuario():
+def dados_ingrafaelcr():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
@@ -39,7 +39,7 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
-            dados()
+            dados_ingrafaelcr()
         elif i == 3:
             break
         else:
