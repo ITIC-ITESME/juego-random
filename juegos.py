@@ -15,7 +15,7 @@ def tombola():
             print('Sigue paticipando')
 
 #Los datos al azar
-def dados():
+def dados_@usuario():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
