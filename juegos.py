@@ -41,6 +41,7 @@ def menu():
         elif i == 2:
             print("\nDados")
             dados_Eliud-jpg()
+
         elif i == 3:
             break
         else:
@@ -48,3 +49,16 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+
+#Los datos al azar
+def dados_Eliud-jpg():
+    dato1 = random.randint(1,6)
+    dato2 = random.randint(1,6)
+    print("Primer dato: ", dato1)
+    print("Segundo dato: ", dato2)
+    suma= dato1+dato2
+    if suma==7:
+        print("¡GANASTE!")
+    else:
+        print("Mejor suerte para la proxima")
+
