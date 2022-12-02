@@ -28,7 +28,7 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
-            dados()
+            dados_AleScarlett20()
         elif i == 3:
             break
         else:
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     menu()
 
 #Los datos al azar
-def dados_@usuario():
+def dados_AleScarlett20():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
