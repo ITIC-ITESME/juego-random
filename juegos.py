@@ -15,7 +15,7 @@ def tombola():
             print('Sigue paticipando')
 
 #Los datos al azar
-def dados_@usuario():
+def dados_@Eliud-jpg():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
@@ -40,6 +40,7 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
+            dados_Eliud-jpg()
         elif i == 3:
             break
         else:
