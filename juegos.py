@@ -28,14 +28,14 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
-            dados()
+            dados_Raul1311()
         elif i == 3:
             break
         else:
             print("Opcion invalida")
             
 #Los datos al azar
-def dados_@usuario():
+def dados_Raul1311():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
