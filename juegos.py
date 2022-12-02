@@ -2,7 +2,7 @@
 import random
 
 #Los datos al azar
-def dados_@usuario():
+def dados_JIR():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
@@ -40,7 +40,7 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
-            dados()
+            dados_JIR()
         elif i == 3:
             break
         else:
