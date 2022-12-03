@@ -39,7 +39,7 @@ def menu():
             print("\nTombola")
             tombola()
         elif i == 2:
-            print("\nDados")
+            print("\nDados_MiguelHernandez999")
             dados()
         elif i == 3:
             break
