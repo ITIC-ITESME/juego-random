@@ -41,15 +41,11 @@ def menu():
         elif i == 2:
             print("\nDados")
             dados_Eliud-jpg()
-
         elif i == 3:
             break
         else:
             print("Opcion invalida")
-
-if __name__ == "__main__":
-    menu()
-
+            
 #Los datos al azar
 def dados_Eliud-jpg():
     dato1 = random.randint(1,6)
@@ -62,3 +58,5 @@ def dados_Eliud-jpg():
     else:
         print("Mejor suerte para la proxima")
 
+if __name__ == "__main__":
+    menu()
