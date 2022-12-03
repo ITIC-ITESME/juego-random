@@ -52,16 +52,16 @@ main
 adriancarreto
             
 #Los datos al azar
-def dados_adriancarreto08():
+def dados_adriancarreto():
     dato1 = random.randint(1,6)
-    dato2 = random.randint(1,6)
-    print("Primer dato: ", dato1)
-    print("Segundo dato: ", dato2)
-    suma= dato1+dato2
-    if suma==7:
-        print("¡GANASTE!")
-    else:
-        print("Mejor suerte para la proxima")
+Modifiquen la función por su usuario, donde se declara y cuando se llama.
+
+def dados_adriancarreto():
+Dentro de menu()
+
+elif i == 2:
+            print("\nDados")
+            dados_adriancarreto()
 
 if __name__ == "__main__":
     menu()
