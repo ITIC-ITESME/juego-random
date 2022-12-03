@@ -1,6 +1,18 @@
 # Juegos de azar, utilizando numeros aleatoreos.
 import random
 
+#Los datos al azar
+def dados():
+    dato1 = random.randint(1,6)
+    dato2 = random.randint(1,6)
+    print("Primer dato: ", dato1)
+    print("Segundo dato: ", dato2)
+    suma= dato1+dato2
+    if suma==7:
+        print("¡GANASTE!")
+    else:
+        print("Mejor suerte para la proxima")
+
 def tombola():
     oportunidades = 10 
     for i in range(oportunidades):
