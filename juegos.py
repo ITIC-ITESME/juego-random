@@ -40,9 +40,29 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
+ adriancarreto
+            dados_adriancarreto()
+
             dados_JIR()
+main
         elif i == 3:
             break
         else:
             print("Opcion invalida")
+adriancarreto
             
+#Los datos al azar
+def dados_adriancarreto():
+    dato1 = random.randint(1,6)
+Modifiquen la función por su usuario, donde se declara y cuando se llama.
+
+def dados_adriancarreto():
+Dentro de menu()
+
+elif i == 2:
+            print("\nDados")
+            dados_adriancarreto()
+
+if __name__ == "__main__":
+    menu()
+ main
