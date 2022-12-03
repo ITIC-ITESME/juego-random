@@ -52,7 +52,7 @@ main
 adriancarreto
             
 #Los datos al azar
-def dados_adriancarreto():
+def dados_adriancarreto08():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
