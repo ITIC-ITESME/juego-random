@@ -2,7 +2,7 @@
 import random
 
  #Los datos al azar
-def dados():
+def dados_adamari924():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
@@ -41,9 +41,25 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
-            dados()
+            dados_adamari924()
         elif i == 3:
             break
         else:
             print("Opcion invalida")
+
             
+#Los datos al azar
+def dados_adriancarreto():
+    dato1 = random.randint(1,6)
+Modifiquen la función por su usuario, donde se declara y cuando se llama.
+
+def dados_adriancarreto():
+Dentro de menu()
+
+elif i == 2:
+            print("\nDados")
+            dados_adriancarreto()
+
+if __name__ == "__main__":
+    menu()
+ main
