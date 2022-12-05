@@ -1,8 +1,8 @@
 # Juegos de azar, utilizando numeros aleatoreos.
 import random
 
-#Los datos al azar
-def dados_JIR():
+ #Los datos al azar
+def dados():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
@@ -12,6 +12,7 @@ def dados_JIR():
         print("¡GANASTE!")
     else:
         print("Mejor suerte para la proxima")
+ 
 
 def tombola():
     oportunidades = 10 
