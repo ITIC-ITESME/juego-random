@@ -41,7 +41,7 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados")
-            dados_JIR()
+            dados()
         elif i == 3:
             break
         else:
