@@ -2,7 +2,7 @@
 import random
 
 #Los datos al azar
-def dados():
+def dados_MiguelHernandez999():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
@@ -40,7 +40,7 @@ def menu():
             tombola()
         elif i == 2:
             print("\nDados_MiguelHernandez999")
-            dados()
+            dados_MiguelHernandez999()
         elif i == 3:
             break
         else:
