@@ -2,7 +2,7 @@
 import random
 
 #Los datos al azar
-def dados_JIR():
+def dados():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
