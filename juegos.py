@@ -2,7 +2,7 @@
 import random
 
 #Los datos al azar
-def dados_usuario():
+def dados_NightBlue-art():
     dato1 = random.randint(1,6)
     dato2 = random.randint(1,6)
     print("Primer dato: ", dato1)
@@ -13,6 +13,30 @@ def dados_usuario():
     else:
         print("Mejor suerte para la proxima")
 
+def tombola():
+    oportunidades = 10 
+    for i in range(oportunidades):
+        numeroSuerte = int(input('Escribe un numero del 1 al 10: '))
+            # randint([inicio],[final])
+        tombola = random.randint(1,10)
+        print('El numero es ', tombola)
+        if numeroSuerte==tombola:
+            print('!Ganaste!')
+            break
+        else:
+            print('Sigue paticipando')
+#Los datos al azar
+def dados_():
+    dato1 = random.randint(1,6)
+    dato2 = random.randint(1,6)
+    print("Primer dato: ", dato1)
+    print("Segundo dato: ", dato2)
+    suma= dato1+dato2
+    if suma==7:
+        print("¡GANASTE!")
+    else:
+        print("Mejor suerte para la proxima")
+        
 # Menu de juego
 def menu():
     i = 0
@@ -26,13 +50,17 @@ def menu():
             print("\nTombola")
             tombola()
         elif i == 2:
-            print("\nDados")
-            dados()
+
+            print("\ndados_NightBlue-art")
+            dados_NightBlue-art()
+
         elif i == 3:
             break
         else:
             print("Opcion invalida")
+        elif i == 2:
+            print("\nDados")
+            dados_NightBlue-art()
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     menu()
- 
