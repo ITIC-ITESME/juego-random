@@ -25,17 +25,7 @@ def tombola():
             break
         else:
             print('Sigue paticipando')
-#Los datos al azar
-def dados_():
-    dato1 = random.randint(1,6)
-    dato2 = random.randint(1,6)
-    print("Primer dato: ", dato1)
-    print("Segundo dato: ", dato2)
-    suma= dato1+dato2
-    if suma==7:
-        print("¡GANASTE!")
-    else:
-        print("Mejor suerte para la proxima")
+
         
 # Menu de juego
 def menu():
@@ -50,17 +40,13 @@ def menu():
             print("\nTombola")
             tombola()
         elif i == 2:
-
             print("\ndados_NightBlue-art")
             dados_NightBlue-art()
-
         elif i == 3:
             break
         else:
             print("Opcion invalida")
-        elif i == 2:
-            print("\nDados")
-            dados_NightBlue-art()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     menu()
+
