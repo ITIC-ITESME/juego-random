@@ -27,6 +27,7 @@ def tombola():
         else:
             print('Sigue paticipando')
 
+        
 # Menu de juego
 def menu():
     i = 0
@@ -47,19 +48,6 @@ def menu():
         else:
             print("Opcion invalida")
 
-            
-#Los datos al azar
-def dados_adriancarreto():
-    dato1 = random.randint(1,6)
-Modifiquen la función por su usuario, donde se declara y cuando se llama.
-
-def dados_adriancarreto():
-Dentro de menu()
-
-elif i == 2:
-            print("\nDados")
-            dados_adriancarreto()
-
 if __name__ == "__main__":
     menu()
- main
+
